@@ -1,0 +1,53 @@
+header {
+    color:seashell;
+    background: #3C50FF;
+    text-align: center;
+    padding: 10px
+    
+    text-shadow: 1px 1px 1px black;
+    
+    
+    
+
+}
+h1{
+    font-family: Arial;
+}
+nav{
+    background: saddlebrown;
+    
+}
+nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+nav ul li{
+    
+    text-align: center;
+    display: inline-block;
+    margin: 40px;
+    padding: 0px;
+    font-size: 30px;
+    
+}
+nav a{
+    color: white;
+}
+main{
+    width: 90%;
+}
+
+footer{
+    color: red;
+    background-color: gold;
+    text-align: center;
+    width: fit-content;
+}
+.highlight {
+    font-size: 24px;
+    width: fit-content;
+    background-color: chartreuse;
+}
