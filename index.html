@@ -25,33 +25,46 @@
 
     <main>
         <article>
-            <section>
-                <p class="highlight">
-                    what is engineering : </p>
-                <p>
-                    the branch of science and technology concerned with the design, building, and use of engines,
-                    machines, and structures.
-                </p>
 
-                <img class="img1" src="https://cdn4.vectorstock.com/i/1000x1000/17/88/engineering-logo-icon-design-vector-15611788.jpg"
-                    alt=" Engineering" width="150" height="150">
+
+            <section>
+
             </section>
         </article>
         <article>
             <section>
-                <p> the specialties of the engineering </p>
-                <p>electrical,civil, mechanical, chemistry and others</p>
+
+                
+                <h1 onclick="changeText(this)">Click on this text</h1>
+
+                <script>
+                    function changeText(id) {
+                        id.innerHTML = "Engineering is perfect";
+                    }
+                </script>
+
+                <p>Click the button to display the date.</p>
+
+                <button onclick="displayDate()">The time is?</button>
+
+                <script>
+                    function displayDate() {
+                        document.getElementById("demo").innerHTML = Date();
+                    }
+                </script>
+
+                <p id="demo"></p>
+
+                <P> <span >Your favourite Engineering :</span></P>
 
 
-                <img  src="https://thumbor.forbes.com/thumbor/711x400/https://blogs-images.forbes.com/emsi/files/2014/09/Engineering-Techs-Age-Chart.jpg?width=960"
-                    alt="" width="200" height="200">
-            </section>
         </article>
 
+        <script src="script/myscript.js"></script>
 
     </main>
 
-    <footer>
+    <footer alig>
         <p>&#169; Mohammed Ghafri,2020</p>
     </footer>
 
