@@ -2,13 +2,9 @@ header {
     color:seashell;
     background: #3C50FF;
     text-align: center;
-    padding: 10px
-    
+    padding: 10px;
     text-shadow: 1px 1px 1px black;
 }
-    body{
-      
-    }
     
     
 
@@ -17,8 +13,8 @@ h1{
     font-family: Arial;
 }
 nav{
-    background: url(https://lh3.googleusercontent.com/proxy/1eV5oCefAnHYRESHTxqBuCxAnznFe2rSA1ZW_G0u5eto4HeYOOecAA3erdoFeMfEIM1V48EW7nUR6113jmPvnYKheHyy_-ZSqPMwnUEhA5lJ);
-    
+    background: url(https://p7.hiclipart.com/preview/223/812/842/health-fitness-and-wellness-health-care-dietary-supplement-clip-art-health.jpg);
+    background-position: center;
 }
 nav ul{
     
@@ -37,7 +33,7 @@ nav ul li{
     
 }
 nav a{
-    color: white;
+    color: pink;
     text-shadow: 1px 1px 1px black;
     
 }
@@ -45,7 +41,7 @@ main{
     position: absolute;
     width: 100%;
     height: 25cm;
-    background-image: url("https://cdn.leverageedu.com/blog/wp-content/uploads/2019/12/23193549/Mechanical-Engineering.png");
+    background-image: url(https://static1.bigstockphoto.com/0/7/2/large1500/270519103.jpg)
 }
 
  main article section  h1{
@@ -55,14 +51,7 @@ span {
     font-size: 50px;
 }
 
-footer{
-    
-    color: red;
-    background-color: gold;
-    
-    text-align: center;
-    width: fit-content;
-}
+
 .highlight {
     font-size: 24px;
     width: fit-content;
@@ -111,4 +100,26 @@ footer{
     border-color: goldenrod;
     background-size: 24px;
     font-size: 25px;
+}
+.mass{
+position: absolute;
+border-radius: 3px;
+top: 3%;
+left: 25%;
+border-width: 10px;
+color: blueviolet;
+background-color: white;
+border-color: goldenrod;
+background-size: 24px;
+font-size: 25px;
+}
+
+.print{
+    font-size: 25px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    background-size: 50%;
+    background-color: pink;
+    text-align: center;
 }
